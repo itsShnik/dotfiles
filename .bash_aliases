@@ -1,1 +1,0 @@
-/home/shnik/.bash_aliases
