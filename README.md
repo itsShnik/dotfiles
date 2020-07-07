@@ -17,14 +17,14 @@ In ubuntu versions above 18.04, setting network proxy in system settings sets th
 
 - __Terminal proxy in ubuntu__ <= 16.04: Add the following to bashrc
 
-```
+```sh
 export http_proxy="http://172.16.2.30:8080"
 export https_proxy="http://172.16.2.30:8080"
 ```
 
 - __Apt proxy__: Add the following to /etc/apt/apt.conf
 
-```
+```sh
 Acquire::http::No-Cache true;
 Acquire::http::Pipeline-Depth 0;
 Acquire::http::Proxy "http://172.16.2.30:8080/";
